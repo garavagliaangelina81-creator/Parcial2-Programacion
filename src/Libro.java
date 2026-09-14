@@ -25,7 +25,7 @@ public class Libro {
     public boolean isDisponible() { return disponible; }
     public int getVecesPrestado() { return vecesPrestado; }
 
-    // Setters
+    // Setters para modificar los atributos
     public void setTitulo(String titulo) { this.titulo = titulo; }
     public void setIsbn(String isbn) { this.isbn = isbn; }
     public void setAutor(String autor) { this.autor = autor; }
