@@ -21,7 +21,7 @@ public class Main {
         biblioteca.agregarLibro(libro4);
         System.out.println("   ✔ Libros agregados. Total en catálogo: " + biblioteca.getLibros().obtenerCantidad() + "\n");
 
-       // 4. Búsqueda por título usando la lógica de la Biblioteca
+       // 4. Búsqueda por título usando la lógica de la Biblioteca, busca todas las coincidencias del texto enviado e imprime el resultado
         System.out.println("🔍 BÚSQUEDA POR TÍTULO ('El Quijote'):");
         ListaEnlazada<Libro> resultadosTitulo = biblioteca.buscarPorTitulo("El Quijote");
         for (int i = 0; i < resultadosTitulo.obtenerCantidad(); i++) {

@@ -1,6 +1,6 @@
 public class Nodo<T> {
     private T dato;
-    private Nodo<T> siguiente;
+    private Nodo<T> siguiente; //referenccial hacia el sigueinte nodo
 
     // Constructor: inicialza
     public Nodo(T dato) {
@@ -17,12 +17,12 @@ public class Nodo<T> {
         this.dato = dato;
     }
 
-    public Nodo<T> getSiguiente() {
+    public Nodo<T> getSiguiente() { //saltar de un nodo a otro
         return siguiente;
     }
 
     public void setSiguiente(Nodo<T> siguiente) {
-        this.siguiente = siguiente;
+        this.siguiente = siguiente; //encadenar un nuevo nodo
     }
 
     @Override
